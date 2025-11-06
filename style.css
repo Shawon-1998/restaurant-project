@@ -1,0 +1,310 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+.container {
+  width: 1707px;
+  margin: auto;
+}
+
+nav {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+li span {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  font-family: ;
+}
+
+p {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+h3 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 200px;
+  font-family: "DM Sans", sans-serif;
+}
+
+h4 {
+  font-size: 48px;
+  font-weight: 500px;
+  font-family: "DM Sans", sans-serif;
+}
+
+hr {
+  width: 50%;
+  margin: auto;
+  color: #D9D9D9;
+  margin-bottom: 39px;
+}
+
+.anchor {
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  font-weight: 500px;
+  font-size: 32px;
+  border-radius: 30px;
+  border: 1px solid;
+  background-color: #FF6B2C;
+  padding: 20px 50px;
+}
+
+/* common css end */
+/* navbar start */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+  font-family: "Playfair Display", serif;
+  align-items: center;
+  gap: 60px;
+}
+
+.navbar ul span:hover {
+  font-family: "DM Sans", sans-serif;
+  border: 1px solid;
+  padding: 10px 50px;
+  background-color: #FF6624;
+  border-radius: 10px;
+  color: white;
+}
+
+.navbar ul div {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  color: #797575;
+  font-size: 32px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.navbar ul li:hover {
+  background: #D9D9D9;
+  transition: .2s linear;
+  transform: scale(1.2);
+}
+
+.navbar ul li a div {
+  justify-content: center;
+}
+
+/* navbar end */
+
+/* banner start */
+.banner {
+  background-image: url(images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h1 {
+  padding: 276px 0px 0px 1239px;
+
+  font-size: 64px;
+  color: #AB0505;
+  font-weight: bold;
+}
+
+.banner p {
+  padding: 26px 127px 60px 1285px;
+}
+
+.banner div {
+  padding: 0px 0px 160px 1428px;
+}
+
+/* banner end */
+/* taste part start */
+#taste-part h3 {
+  padding: 77px 0px 76px 0px;
+}
+
+.taste-content span {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.taste {
+  display: flex;
+  gap: 6px;
+}
+
+.taste:hover {
+  transition: 0.3s linear;
+  padding: 15px;
+  background-color: #FF7F48;
+}
+
+#taste-part .main-anchor {
+  text-align: center;
+  margin: 108px 0px 76px 0px;
+}
+
+/* taste end */
+
+/* recipe start */
+#recipe-part h3 {
+  margin: 76px 0px 83px 0px;
+}
+
+.recipe-content {
+  margin-bottom: 76px;
+}
+
+.recipe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#recipe-part div {
+  text-align: center;
+}
+
+#recipe-part {
+  margin-bottom: 76px;
+}
+
+.recipe-pic:hover {
+
+  transition: .4s linear;
+  transform: scale(1.2)rotate(720deg);
+}
+
+/* recipe end */
+
+/* blog part start */
+.blog-content {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.blog {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.blog p::selection {
+  background-color: #AB0505;
+}
+
+.dot {
+  text-align: center;
+}
+
+#blog-part .quotation {
+  margin: -48px 0px 0px 1120px;
+}
+
+#blog-part .main-anchor {
+  text-align: center;
+  margin: 107px 0px 190px 0px;
+}
+
+/* blog end */
+
+/* footer start */
+footer {
+  font-family: "Playfair Display", serif;
+  background-color: #FF6624;
+  width: 100%;
+}
+
+.footer-top p {
+  color: #AB0505;
+  font-size: 128px;
+  font-weight: 500px;
+  margin: -100px 0px 0px 309px;
+}
+
+.footer-top span {
+  margin-left: 203px;
+}
+
+/* footer top end */
+
+/* footer middle start */
+.social-media {
+  display: flex;
+  gap: 31px;
+  margin: 31px 0px 138px 0px;
+}
+
+.footer-middle {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-middle h6 {
+  font-size: 36px;
+  font-weight: normal;
+  font-family: "Playfair Display", serif;
+  color: white;
+}
+
+.footer-middle p {
+  font-size: 40px;
+  color: white;
+  margin-top: 55px;
+}
+
+.footer-middle ul {
+  text-transform: capitalize;
+  font-size: 36px;
+  font-weight: 500px;
+  color: #FFF;
+  line-height: 60px;
+}
+
+.footer-middle span {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.footer-middle .input {
+  border: 1px solid white;
+  padding: 20px 200px;
+}
+
+button {
+  margin-bottom: 30px;
+  padding: 15px 40px;
+  font-size: 36px;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-top: 45px;
+  color: #FF6624;
+  border-style: none;
+}
+
+.pay {
+  display: flex;
+  gap: 20px;
+}
