@@ -6,7 +6,7 @@
 }
 
 .container {
-  width: 1707px;
+  width: 1700px;
   margin: auto;
 }
 
@@ -117,24 +117,28 @@ hr {
   background-image: url(images/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  width: 100%;
 }
 
-.banner h1 {
-  padding: 276px 0px 0px 1239px;
-
-  font-size: 64px;
+.banner-sec {
+    padding: 254px 0px 149px 1019px;
+    
+}
+.banner-sec  h1 {
   color: #AB0505;
+  font-size: 64px;
   font-weight: bold;
 }
 
-.banner p {
-  padding: 26px 127px 60px 1285px;
+
+.banner-sec p {
+  padding: 28px 0px 60px 0px;
+  width: 578px;
 }
 
-.banner div {
+/* .banner div {
   padding: 0px 0px 160px 1428px;
-}
+} */
 
 /* banner end */
 /* taste part start */
