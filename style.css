@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-
+  font-family: "DM Sans", sans-serif;
 }
 
 .container {
@@ -24,7 +24,7 @@ li span {
 
 a {
   text-decoration: none;
-  font-family: ;
+ 
 }
 
 p {
@@ -120,11 +120,13 @@ hr {
   width: 100%;
 }
 
-.banner-sec {
+.banner .banner-sec {
     padding: 254px 0px 149px 1019px;
+    text-align: center;
     
 }
 .banner-sec  h1 {
+    width: 713px;  
   color: #AB0505;
   font-size: 64px;
   font-weight: bold;
@@ -132,9 +134,10 @@ hr {
 
 
 .banner-sec p {
-  padding: 28px 0px 60px 0px;
-  width: 578px;
+  margin: 28px 0px 60px 0px;  
+ font-size: 32px;
 }
+
 
 /* .banner div {
   padding: 0px 0px 160px 1428px;
