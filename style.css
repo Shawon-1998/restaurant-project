@@ -138,13 +138,6 @@ hr {
  font-size: 32px;
 }
 
-
-/* .banner div {
-  padding: 0px 0px 160px 1428px;
-} */
-
-/* banner end */
-/* taste part start */
 #taste-part h3 {
   padding: 77px 0px 76px 0px;
 }
@@ -198,8 +191,8 @@ hr {
 
 .recipe-pic:hover {
 
-  transition: .4s linear;
-  transform: scale(1.2)rotate(720deg);
+  transition: .2s linear;
+  transform: scale(1.1);
 }
 
 /* recipe end */
@@ -233,85 +226,52 @@ hr {
   text-align: center;
   margin: 107px 0px 190px 0px;
 }
-
-/* blog end */
-
-/* footer start */
 footer {
   font-family: "Playfair Display", serif;
   background-color: #FF6624;
-  width: 100%;
+  
+  color: #D9D9D9;
 }
-
-.footer-top p {
-  color: #AB0505;
-  font-size: 128px;
-  font-weight: 500px;
-  margin: -100px 0px 0px 309px;
-}
-
-.footer-top span {
-  margin-left: 203px;
-}
-
-/* footer top end */
-
-/* footer middle start */
-.social-media {
-  display: flex;
-  gap: 31px;
-  margin: 31px 0px 138px 0px;
-}
-
-.footer-middle {
-  display: flex;
-  justify-content: space-around;
-}
-
-.footer-middle h6 {
-  font-size: 36px;
-  font-weight: normal;
-  font-family: "Playfair Display", serif;
-  color: white;
-}
-
-.footer-middle p {
-  font-size: 40px;
-  color: white;
-  margin-top: 55px;
-}
-
-.footer-middle ul {
-  text-transform: capitalize;
-  font-size: 36px;
-  font-weight: 500px;
-  color: #FFF;
-  line-height: 60px;
-}
-
-.footer-middle span {
-  font-weight: bold;
-  font-size: 40px;
-  font-family: "DM Sans", sans-serif;
-}
-
-.footer-middle .input {
-  border: 1px solid white;
-  padding: 20px 200px;
-}
-
-button {
-  margin-bottom: 30px;
-  padding: 15px 40px;
-  font-size: 36px;
-  font-weight: bold;
-  border-radius: 15px;
-  margin-top: 45px;
-  color: #FF6624;
-  border-style: none;
-}
-
-.pay {
+.social {
   display: flex;
   gap: 20px;
+}
+
+.footer-sec {
+ display: flex;
+ justify-content: space-between;
+}
+.footer-sec p{
+  width: 523px;
+}
+.footer-sec h5{
+  margin-top: 55px;
+  margin-bottom: 29px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.footer-sec h2{
+ font-size: 40px;
+ font-weight: bold;
+}
+.footer-sec ul li{
+  padding: 14px 0px;
+  font-size: 36px;
+  font-weight: 500;
+}
+.inputType{
+  border: solid 1px #FFFFFF;
+  padding: 10px 0px;
+  width: 460px;
+  background-color: #FF6624;
+}
+.footer-sec button{
+   padding: 10px 20px;
+  background-color: #D9D9D9;
+  border: #FF6624;
+  color: #FF6624;
+  font-size: 32px;
+  font-weight: 800;
+  border-radius: 20px; 
+  margin: 45px 0px 39px;
 }
